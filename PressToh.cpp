@@ -1,15 +1,15 @@
 #include "PressToh.h"
 
-void PressToh::map_key()
+bool PressToh::map_key(int& output)
 {
     for (char i: presstoh_key)
     {
-        int tmp;
         try {
-            tmp = ctoi(i);
-            std::cout << tmp << std::endl;
+            output += ctoi(i);
         } catch(...) {
             std::cout << "Something went wrong!" << std::endl;
+            return false;
         }
     }
+    return true;
 }

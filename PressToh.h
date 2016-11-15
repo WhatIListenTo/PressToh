@@ -14,6 +14,6 @@ public:
     {
         return c - '0';
     }
-    void map_key();
+    bool map_key(int& output);
 };
 #endif

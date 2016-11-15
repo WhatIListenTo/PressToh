@@ -7,8 +7,8 @@ using namespace std;
 int main()
 {
     PressToh hexCipher;
-    hexCipher.map_key();
-    cout << "Hello world" << endl;
-    cin.ignore();
+    int hold_me;
+    hexCipher.map_key(hold_me);
+    cout << hold_me << endl;
     return 0;
 }
