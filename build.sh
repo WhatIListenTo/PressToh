@@ -1,2 +1,2 @@
 g++ *.cpp *.h -o cipher
-./cipher
+./cipher $1
