@@ -1,3 +1,7 @@
 *.gch
+
+# Output file
 *.out
 
+# Vim swaps
+*.swp
